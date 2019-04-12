@@ -1,0 +1,43 @@
+# GitLab uses docker in the background, so we need to specify the 
+# image versions. This is useful because we're freely to use
+# multiple node versions to work with it. They come from the docker
+# repo.
+# Uses NodeJS V 9.4.0
+image: node:9.4.0
+
+# And to cache them as well.
+cache:
+  paths:
+    - node_modules/
+
+# We tell GitLab to install all the packages
+# before running anything.
+# Docker images come with npm preinstalled
+before_script:  
+  - apt-get update -qq && apt-get install
+
+# You specify the stages. Those are the steps that GitLab will go through 
+# Order matters. 
+stages:
+  - build
+  - test
+
+Build:
+  stage: build
+  tags:
+    - node
+  before_script: 
+    - npm install 
+  script:
+    - npm run build
+
+Test:
+  stage: test
+  tags:
+  - node
+  before_script: 
+    - npm install 
+  script:
+  # Runs the tests.
+    - npm run test
+
