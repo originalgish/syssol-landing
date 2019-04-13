@@ -20,10 +20,10 @@ export const Title = styled.h2`
 `
 
 export const Text = styled.p`
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 1.5;
   text-align: center;
-  max-width: 1250px;
+  max-width: 900px;
   margin: 0 auto;
   margin-top: 30px;
 `

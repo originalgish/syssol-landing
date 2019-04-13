@@ -4,6 +4,8 @@ import { ThemeProvider } from 'styled-components'
 // Components
 import Intro from './components/Intro'
 import Target from './components/Target'
+import CoreValues from './components/CoreValues'
+import Competences from './components/Competences'
 
 // Styles
 import { AppContainer } from './styles'
@@ -15,6 +17,8 @@ class App extends Component {
         <AppContainer>
           <Intro />
           <Target />
+          <CoreValues />
+          <Competences />
         </AppContainer>
       </ThemeProvider>
     )
