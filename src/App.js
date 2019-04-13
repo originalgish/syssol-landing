@@ -8,6 +8,7 @@ import CoreValues from './components/CoreValues'
 import Competences from './components/Competences'
 import Projects from './components/Projects'
 import Partners from './components/Partners'
+import Footer from './components/Footer'
 
 // Styles
 import { AppContainer } from './styles'
@@ -23,6 +24,7 @@ class App extends Component {
           <Competences />
           <Projects />
           <Partners />
+          <Footer />
         </AppContainer>
       </ThemeProvider>
     )

@@ -10,7 +10,7 @@ export const ContentWrapper = styled.div`
 `
 export const Title = styled.h2`
   margin: 0;
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: 600;
   text-align: center;
 `

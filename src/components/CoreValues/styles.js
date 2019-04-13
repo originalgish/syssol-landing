@@ -15,8 +15,6 @@ export const CardsContainer = styled.div`
   justify-content: center;
 `
 export const Card = styled.div`
-  /* border-bottom-left-radius: 17px;
-  border-bottom-right-radius: 17px; */
   background-color: #f5f5f5;
   padding: 20px;
   max-width: 250px;

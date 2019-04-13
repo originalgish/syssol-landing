@@ -18,7 +18,7 @@ export const CardsContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 20px;
 `
 export const Card = styled.div`
   border-radius: 7px;

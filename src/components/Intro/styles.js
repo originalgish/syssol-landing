@@ -29,7 +29,7 @@ export const HomeLink = styled.a`
   text-decoration: none;
   text-transform: uppercase;
   padding: 15px 20px;
-  margin-top: 30px;
+  margin-top: 20px;
   transition: background-color 0.3s ease;
   &:hover {
     background-color: #1e6687;
