@@ -1,7 +1,7 @@
 {
   "name": "syssol-landing",
-  "version": "0.1.0",
-  "homepage": "https://originalgish.gitlab.io/syssol-landing/",
+  "version": "1.0.0",
+  "homepage": "https://originalgish.github.io/syssol-landing/",
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
