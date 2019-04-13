@@ -24,10 +24,14 @@ export const Title = styled.h1`
 export const HomeLink = styled.a`
   display: inline-block;
   border-radius: 6px;
-  background-image: linear-gradient(to bottom, #00d2ef, #0093c4);
+  background-color: #0088c6;
   color: ${props => props.theme.white};
   text-decoration: none;
   text-transform: uppercase;
   padding: 15px 20px;
   margin-top: 30px;
+  transition: background-color 0.3s ease;
+  &:hover {
+    background-color: #1e6687;
+  }
 `

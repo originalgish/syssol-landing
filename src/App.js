@@ -6,6 +6,8 @@ import Intro from './components/Intro'
 import Target from './components/Target'
 import CoreValues from './components/CoreValues'
 import Competences from './components/Competences'
+import Projects from './components/Projects'
+import Partners from './components/Partners'
 
 // Styles
 import { AppContainer } from './styles'
@@ -19,6 +21,8 @@ class App extends Component {
           <Target />
           <CoreValues />
           <Competences />
+          <Projects />
+          <Partners />
         </AppContainer>
       </ThemeProvider>
     )
