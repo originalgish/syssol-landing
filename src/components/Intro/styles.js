@@ -10,6 +10,7 @@ export const IntroContainer = styled.div`
   height: 736px;
   background-image: url(${introBG});
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 `
 
