@@ -18,7 +18,7 @@ export const Title = styled.h1`
   margin: 0;
   font-size: 2.25em;
   font-weight: 600;
-  margin-top: 4em;
+  margin-top: 3em;
   text-align: center;
 `
 
