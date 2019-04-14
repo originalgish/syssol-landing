@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
-export const CoreValuesContainer = styled.div`
-  padding: 50px 90px;
-`
+import { SectionContainer } from '../../../styles/SectionContainer'
+
+export const CoreValuesContainer = styled(SectionContainer)``
 export const Title = styled.h2`
   margin: 0;
   font-size: 2em;

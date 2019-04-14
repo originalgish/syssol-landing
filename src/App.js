@@ -2,13 +2,14 @@ import React, { Component } from 'react'
 import { ThemeProvider } from 'styled-components'
 
 // Components
-import Intro from './components/Intro'
-import Target from './components/Target'
-import CoreValues from './components/CoreValues'
-import Competences from './components/Competences'
-import Projects from './components/Projects'
-import Partners from './components/Partners'
-import Footer from './components/Footer'
+import Header from './components/Sections/Header'
+import Intro from './components/Sections/Intro'
+import Target from './components/Sections/Target'
+import CoreValues from './components/Sections/CoreValues'
+import Competences from './components/Sections/Competences'
+import Projects from './components/Sections/Projects'
+import Partners from './components/Sections/Partners'
+import Footer from './components/Sections/Footer'
 
 // Styles
 import { AppContainer } from './styles'
@@ -18,6 +19,7 @@ class App extends Component {
     return (
       <ThemeProvider theme={theme}>
         <AppContainer>
+          <Header />
           <Intro />
           <Target />
           <CoreValues />

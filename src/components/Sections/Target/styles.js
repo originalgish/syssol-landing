@@ -1,10 +1,11 @@
 import styled from 'styled-components'
 
+import { SectionContainer } from '../../../styles/SectionContainer'
+
 import delighter1 from './img/delighter-1.svg'
 import delighter2 from './img/delighter-2.svg'
 
-export const TargetContainer = styled.div`
-  padding: 50px 90px;
+export const TargetContainer = styled(SectionContainer)`
   background-color: #00d2ef20;
   background-image: url(${delighter1}), url(${delighter2});
   background-size: 88px 88px, 230px 230px;

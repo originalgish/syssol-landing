@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
-export const PartnersContainer = styled.div`
-  padding: 50px 90px;
-`
+import { SectionContainer } from '../../../styles/SectionContainer'
+
+export const PartnersContainer = styled(SectionContainer)``
 export const Title = styled.h2`
   margin: 0;
   font-size: 2em;

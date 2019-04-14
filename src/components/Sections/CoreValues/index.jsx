@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { coreValues } from '../../data'
+import { coreValues } from '../../../data'
 
 import { CoreValuesContainer, Title, CardsContainer, Card, CardTitle, CardText } from './styles'
 

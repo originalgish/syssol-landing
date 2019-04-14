@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { partners } from '../../data'
+import { partners } from '../../../data'
 
 import { PartnersContainer, Title, SubTitle, CardsContainer, Card, Logo, Name } from './styles'
 
