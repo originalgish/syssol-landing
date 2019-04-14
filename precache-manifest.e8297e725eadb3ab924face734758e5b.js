@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "./static/media/Helvetica-Light.9a8c18bd.ttf"
   },
   {
-    "revision": "246ce7ecfb9761897e7b",
+    "revision": "b5717572c64b6dc9c848",
     "url": "./static/css/main.1c0180e5.chunk.css"
   },
   {
@@ -12,8 +12,12 @@ self.__precacheManifest = [
     "url": "./static/js/runtime~main.d653cc00.js"
   },
   {
-    "revision": "78f11606ca00f86a6682",
-    "url": "./static/js/2.1fccdd9c.chunk.js"
+    "revision": "635af7779230d49950fa",
+    "url": "./static/js/2.f7c9079b.chunk.js"
+  },
+  {
+    "revision": "4e9cc66f1871de71c4b8c3b24952493a",
+    "url": "./static/media/logo.4e9cc66f.png"
   },
   {
     "revision": "eb1469be3850f02781739c589b322377",
@@ -32,10 +36,6 @@ self.__precacheManifest = [
     "url": "./static/media/bmstu_logo.7f46fde6.png"
   },
   {
-    "revision": "4e9cc66f1871de71c4b8c3b24952493a",
-    "url": "./static/media/logo.4e9cc66f.png"
-  },
-  {
     "revision": "e074bf3a98b6097f1bb72fc7d1493a9c",
     "url": "./static/media/Helvetica-Light.e074bf3a.woff"
   },
@@ -48,28 +48,28 @@ self.__precacheManifest = [
     "url": "./static/media/Helvetica-Light.c1e1a1de.eot"
   },
   {
-    "revision": "246ce7ecfb9761897e7b",
-    "url": "./static/js/main.17dcc3ec.chunk.js"
+    "revision": "b5717572c64b6dc9c848",
+    "url": "./static/js/main.3184f8a1.chunk.js"
   },
   {
     "revision": "4d596a00c8c08a89e8d175393c1aff4f",
     "url": "./static/media/Helvetica-Light.4d596a00.svg"
   },
   {
-    "revision": "def025e0e363a586d2e9b64481f414ef",
-    "url": "./static/media/Helvetica-Regular.def025e0.woff"
-  },
-  {
     "revision": "8b14b10aecc9027ab7d5c257a03ffd28",
     "url": "./static/media/Helvetica-Bold.8b14b10a.woff"
   },
   {
-    "revision": "861b809cde5cbcb3b79395e918d24dfe",
-    "url": "./static/media/Helvetica-Bold.861b809c.eot"
+    "revision": "def025e0e363a586d2e9b64481f414ef",
+    "url": "./static/media/Helvetica-Regular.def025e0.woff"
   },
   {
     "revision": "d13db1fed3945c3b8c3293bfcfadb32f",
     "url": "./static/media/Helvetica-Bold.d13db1fe.ttf"
+  },
+  {
+    "revision": "861b809cde5cbcb3b79395e918d24dfe",
+    "url": "./static/media/Helvetica-Bold.861b809c.eot"
   },
   {
     "revision": "e305dd36f46f8493df70fdd4e0e69e3a",
@@ -96,7 +96,7 @@ self.__precacheManifest = [
     "url": "./static/media/Helvetica-Regular.1a5e90d2.svg"
   },
   {
-    "revision": "d2621d677fdcc22c795bd965394a8a50",
+    "revision": "63a827f2189bb8d7a50d9a617fd72f82",
     "url": "./index.html"
   }
 ];
