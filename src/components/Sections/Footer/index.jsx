@@ -17,7 +17,7 @@ const Footer = () => (
         <TextLink href="http://syssol.ru/requisites.html" target="_blank" rel="noopener noreferrer">
           Реквизиты
         </TextLink>
-        <TextLink href="http://contacts.ru/requisites.html" target="_blank" rel="noopener noreferrer">
+        <TextLink href="http://syssol.ru/contacts.html" target="_blank" rel="noopener noreferrer">
           Контакты
         </TextLink>
       </LinksContainer>
