@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { ThemeProvider } from 'styled-components'
 
 // Components
+import Header from './components/Header'
 import Intro from './components/Intro'
 import Target from './components/Target'
 import CoreValues from './components/CoreValues'
@@ -18,6 +19,7 @@ class App extends Component {
     return (
       <ThemeProvider theme={theme}>
         <AppContainer>
+          <Header />
           <Intro />
           <Target />
           <CoreValues />

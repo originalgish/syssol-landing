@@ -13,15 +13,20 @@ export const IntroContainer = styled.div`
   background-position: center;
   background-repeat: no-repeat;
 `
-
 export const Title = styled.h1`
   margin: 0;
-  font-size: 2.25em;
+  font-size: 3.5em;
   font-weight: 600;
-  margin-top: 3em;
+  line-height: 1;
+  margin-top: 0.5em;
   text-align: center;
 `
-
+export const SubTitle = styled.h2`
+  font-weight: 400;
+  line-height: 1;
+  margin-top: 10px;
+  text-align: center;
+`
 export const HomeLink = styled.a`
   display: inline-block;
   border-radius: 6px;
@@ -30,7 +35,7 @@ export const HomeLink = styled.a`
   text-decoration: none;
   text-transform: uppercase;
   padding: 15px 20px;
-  margin-top: 20px;
+  margin-top: 15px;
   transition: background-color 0.3s ease;
   &:hover {
     background-color: #1e6687;
