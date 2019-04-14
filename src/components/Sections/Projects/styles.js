@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 
-export const ProjectsContainer = styled.div`
-  padding: 50px 90px;
+import { SectionContainer } from '../../../styles/SectionContainer'
+
+export const ProjectsContainer = styled(SectionContainer)`
   background-color: #00d2ef20;
 `
 export const ContentWrapper = styled.div`
