@@ -13,7 +13,7 @@ export const FooterContainer = styled.footer`
 export const ContentWrapper = styled.div`
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
   position: relative;
   border-bottom: 1px solid #414042;
 `
@@ -28,9 +28,7 @@ export const LinksContainer = styled.div`
   }
 `
 const Link = styled.a``
-export const LogoLink = styled(Link)`
-  margin-right: auto;
-`
+export const LogoLink = styled(Link)``
 export const TextLink = styled(Link)`
   margin-left: 50px;
   color: ${props => props.theme.text};

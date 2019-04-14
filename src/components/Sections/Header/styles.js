@@ -6,9 +6,8 @@ export const HeaderContainer = styled.header`
   box-shadow: 10px 0px 15px 0 rgba(0, 0, 0, 0.1);
   padding: 0 90px;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
   position: relative;
   @media ${device.tablet} {
     padding: 0px 10px;
@@ -25,9 +24,7 @@ export const LinksContainer = styled.div`
   }
 `
 const Link = styled.a``
-export const LogoLink = styled(Link)`
-  margin-right: auto;
-`
+export const LogoLink = styled(Link)``
 export const TextLink = styled(Link)`
   margin-left: 50px;
   color: ${props => props.theme.text};

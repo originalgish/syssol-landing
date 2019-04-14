@@ -28,4 +28,14 @@ export const Card = styled.div`
   margin: 20px;
   padding: 20px;
   max-width: 300px;
+  transform: rotate(0deg);
+  transition: transform 0.3s ease;
+  &:hover {
+    &:nth-child(odd) {
+      transform: rotate(1deg);
+    }
+    &:nth-child(even) {
+      transform: rotate(-1deg);
+    }
+  }
 `

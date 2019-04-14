@@ -1,9 +1,10 @@
 import styled from 'styled-components'
+import objectFitImages from 'object-fit-images'
 
 import { SectionContainer } from '../../../styles/SectionContainer'
 import { device } from '../../../styles/device'
 
-import introBG from './img/intro-bg.jpg'
+objectFitImages()
 
 export const IntroContainer = styled(SectionContainer)`
   display: flex;
@@ -11,10 +12,6 @@ export const IntroContainer = styled(SectionContainer)`
   align-items: center;
   height: 736px;
   position: relative;
-  /* background-image: url(${introBG});
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; */
   @media ${device.mobileL} {
     height: 512px;
   }
@@ -26,6 +23,7 @@ export const Image = styled.img`
   width: 100%;
   height: 100%;
   object-fit: cover;
+  font-family: 'object-fit: cover;';
   z-index: -1;
 `
 export const Title = styled.h1`
@@ -33,7 +31,7 @@ export const Title = styled.h1`
   font-size: 3.5em;
   font-weight: 600;
   line-height: 1;
-  margin-top: 0.5em;
+  margin-top: 0em;
   text-align: center;
   @media ${device.mobileL} {
     font-size: 2em;
