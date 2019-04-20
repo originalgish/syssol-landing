@@ -12,9 +12,11 @@ const Header = () => (
       <Logo src={logo} alt="logo" />
     </LogoLink>
     <LinksContainer>
-      <TextLink href="#about">О нас</TextLink>
-      <TextLink href="#competences">Компетенции</TextLink>
-      <TextLink href="#projects">Проекты</TextLink>
+      {headerLinksData.links.map(link => (
+        <TextLink key={link.id} href={link.href}>
+          {link.text}
+        </TextLink>
+      ))}
     </LinksContainer>
     <MenuBurger headerLinksData={headerLinksData} />
   </HeaderContainer>

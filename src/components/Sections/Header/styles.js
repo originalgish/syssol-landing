@@ -30,6 +30,7 @@ export const TextLink = styled(Link)`
   margin-left: 25px;
   color: ${props => props.theme.text};
   text-decoration: none;
+  white-space: nowrap;
   &:hover {
     color: #0088c6;
   }

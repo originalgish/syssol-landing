@@ -44,5 +44,5 @@ export const Copyright = styled.span`
   display: block;
   width: 100%;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 20px;
 `

@@ -7,13 +7,23 @@ const headerLinksData = {
     },
     {
       id: 1,
+      href: '#corevalues',
+      text: 'Ценности'
+    },
+    {
+      id: 2,
       href: '#competences',
       text: 'Компетенции'
     },
     {
-      id: 2,
+      id: 3,
       href: '#projects',
       text: 'Проекты'
+    },
+    {
+      id: 4,
+      href: '#partners',
+      text: 'Партнеры'
     }
   ]
 }

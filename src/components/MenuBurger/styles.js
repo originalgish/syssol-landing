@@ -55,6 +55,7 @@ export const TextLink = styled.a`
   font-size: 1.1em;
   display: block;
   margin-bottom: 10px;
+  white-space: nowrap;
   &:last-child {
     margin-bottom: 0;
   }
