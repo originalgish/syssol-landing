@@ -9,6 +9,12 @@ export const Title = styled.h2`
   font-weight: 600;
   text-align: center;
 `
+export const Description = styled.h3`
+  font-weight: 400;
+  max-width: 900px;
+  margin: 20px auto;
+  text-align: center;
+`
 export const CardsContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -49,8 +55,9 @@ export const Card = styled.div`
     }
   }
 `
-export const CardTitle = styled.h3`
+export const CardTitle = styled.h4`
   margin: 0;
+  line-height: 1;
 `
 export const CardText = styled.p`
   margin-bottom: 0;

@@ -1,22 +1,28 @@
 import styled from 'styled-components'
 
-import BIAnalytics from './img/BI-analytics.png'
-import DataManagement from './img/Data-Management.png'
-import EnterpriseApplications from './img/Enterprise-Applications.png'
-import Infrastructure from './img/Infrastructure.png'
+import analytics from './img/analytics.svg'
+import architecture from './img/architecture.svg'
+import consulting from './img/consulting.svg'
+import integrations from './img/integrations.svg'
+import migration from './img/migration.svg'
+import support from './img/support.svg'
 
 import { SectionContainer } from '../../../styles/SectionContainer'
 
 const getIcon = iconName => {
   switch (iconName) {
-    case 'BIAnalytics':
-      return BIAnalytics
-    case 'DataManagement':
-      return DataManagement
-    case 'EnterpriseApplications':
-      return EnterpriseApplications
-    case 'Infrastructure':
-      return Infrastructure
+    case 'analytics':
+      return analytics
+    case 'architecture':
+      return architecture
+    case 'consulting':
+      return consulting
+    case 'integrations':
+      return integrations
+    case 'migration':
+      return migration
+    case 'support':
+      return support
 
     default:
       return null
@@ -53,8 +59,8 @@ export const List = styled.ul`
   position: relative;
   background-image: url(${props => getIcon(props.iconName)});
   background-size: 50px;
-  background-position-x: calc(100% - 5px);
-  background-position-y: 5px;
+  background-position-x: calc(100% - 15px);
+  background-position-y: 15px;
   background-repeat: no-repeat;
   &::before,
   &::after {

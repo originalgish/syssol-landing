@@ -12,19 +12,17 @@ export const TargetContainer = styled(SectionContainer)`
   background-position: 0% 0%, 100% 0%;
   background-repeat: no-repeat, no-repeat;
 `
-
 export const Title = styled.h2`
   margin: 0;
   font-size: 2em;
   font-weight: 600;
   text-align: center;
 `
-
 export const Text = styled.p`
   font-size: 1.2em;
   line-height: 1.5;
   text-align: center;
-  max-width: 850px;
+  max-width: 900px;
   margin: 0 auto;
   margin-top: 30px;
 `

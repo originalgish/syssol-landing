@@ -10,6 +10,7 @@ const Target = () => (
     <TargetContainer>
       <Title>{target.title}</Title>
       <Text>{target.text}</Text>
+      <Text>{target.paragraph}</Text>
     </TargetContainer>
   </ScrollableAnchor>
 )
