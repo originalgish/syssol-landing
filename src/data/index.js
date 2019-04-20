@@ -71,6 +71,7 @@ const competences = {
     {
       id: 0,
       listTitle: 'Проработка архитектуры IoT-решения:',
+      icon: 'BIAnalytics',
       listItems: [
         {
           id: 0,
@@ -93,6 +94,7 @@ const competences = {
     {
       id: 1,
       listTitle: 'Cистемная интеграция:',
+      icon: 'DataManagement',
       listItems: [
         {
           id: 0,
@@ -115,6 +117,7 @@ const competences = {
     {
       id: 2,
       listTitle: 'Поддержка и обслуживание',
+      icon: 'EnterpriseApplications',
       listItems: [
         {
           id: 0,
@@ -129,6 +132,7 @@ const competences = {
     {
       id: 3,
       listTitle: 'Проработка архитектуры IoT-решения:',
+      icon: 'Infrastructure',
       listItems: [
         {
           id: 0,

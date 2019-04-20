@@ -1,6 +1,27 @@
 import styled from 'styled-components'
 
+import BIAnalytics from './img/BI-analytics.png'
+import DataManagement from './img/Data-Management.png'
+import EnterpriseApplications from './img/Enterprise-Applications.png'
+import Infrastructure from './img/Infrastructure.png'
+
 import { SectionContainer } from '../../../styles/SectionContainer'
+
+const getIcon = iconName => {
+  switch (iconName) {
+    case 'BIAnalytics':
+      return BIAnalytics
+    case 'DataManagement':
+      return DataManagement
+    case 'EnterpriseApplications':
+      return EnterpriseApplications
+    case 'Infrastructure':
+      return Infrastructure
+
+    default:
+      return null
+  }
+}
 
 export const CompetencesContainer = styled(SectionContainer)`
   background-color: #aaaaaa25;
@@ -26,10 +47,15 @@ export const List = styled.ul`
   box-shadow: 0 25px 34px 0 rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
   font-weight: 600;
-  padding: 30px;
+  padding: 30px 30px 30px 30px;
   margin: 1em;
-  max-width: 250px;
+  max-width: 300px;
   position: relative;
+  background-image: url(${props => getIcon(props.iconName)});
+  background-size: 50px;
+  background-position-x: calc(100% - 5px);
+  background-position-y: 5px;
+  background-repeat: no-repeat;
   &::before,
   &::after {
     content: '';
@@ -62,6 +88,10 @@ export const List = styled.ul`
       border-width: 2px;
     }
   }
+`
+export const ListTitle = styled.h3`
+  margin: 0;
+  margin-right: 40px;
 `
 export const ListItem = styled.li`
   font-weight: 400;
