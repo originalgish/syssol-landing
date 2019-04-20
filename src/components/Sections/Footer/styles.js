@@ -18,8 +18,8 @@ export const ContentWrapper = styled.div`
   border-bottom: 1px solid #414042;
 `
 export const Logo = styled.img`
-  width: 160px;
-  height: 115px;
+  width: 128px;
+  height: 92px;
 `
 export const LinksContainer = styled.div`
   display: flex;

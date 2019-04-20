@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { SectionContainer } from '../../../styles/SectionContainer'
 
 export const ProjectsContainer = styled(SectionContainer)`
-  background-color: #00d2ef20;
+  background-color: #0088c620;
 `
 export const ContentWrapper = styled.div`
   max-width: 850px;

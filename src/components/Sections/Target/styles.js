@@ -6,7 +6,7 @@ import delighter1 from './img/delighter-1.svg'
 import delighter2 from './img/delighter-2.svg'
 
 export const TargetContainer = styled(SectionContainer)`
-  background-color: #00d2ef20;
+  background-color: #0088c620;
   background-image: url(${delighter1}), url(${delighter2});
   background-size: 88px 88px, 230px 230px;
   background-position: 0% 0%, 100% 0%;

@@ -121,7 +121,7 @@ const competences = {
     },
     {
       id: 2,
-      listTitle: 'Поддержка и обслуживание',
+      listTitle: 'Поддержка и обслуживание:',
       icon: 'support',
       listItems: [
         {
@@ -140,7 +140,7 @@ const competences = {
     },
     {
       id: 3,
-      listTitle: 'Миграция данных',
+      listTitle: 'Миграция данных:',
       icon: 'migration',
       listItems: [
         {
@@ -155,7 +155,7 @@ const competences = {
     },
     {
       id: 4,
-      listTitle: 'Аналитика и BI ',
+      listTitle: 'Аналитика и BI:',
       icon: 'analytics',
       listItems: [
         {
@@ -178,7 +178,7 @@ const competences = {
     },
     {
       id: 5,
-      listTitle: 'IT Консалтинг',
+      listTitle: 'IT Консалтинг:',
       icon: 'consulting',
       listItems: [
         {
