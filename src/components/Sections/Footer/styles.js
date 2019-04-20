@@ -30,8 +30,11 @@ export const LinksContainer = styled.div`
 const Link = styled.a``
 export const LogoLink = styled(Link)``
 export const TextLink = styled(Link)`
-  margin-left: 50px;
+  margin-left: 25px;
   color: ${props => props.theme.text};
+  &:hover {
+    color: #0088c6;
+  }
   @media ${device.tablet} {
     margin-left: 0;
     margin-top: 5px;

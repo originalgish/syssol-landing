@@ -1,3 +1,23 @@
+const headerLinksData = {
+  links: [
+    {
+      id: 0,
+      href: '#about',
+      text: 'О нас'
+    },
+    {
+      id: 1,
+      href: '#competences',
+      text: 'Компетенции'
+    },
+    {
+      id: 2,
+      href: '#projects',
+      text: 'Проекты'
+    }
+  ]
+}
+
 const intro = {
   title: 'Системные решения',
   subtitle: 'Мы соединяем физический и Онлайн миры',
@@ -187,4 +207,4 @@ const projects = {
   ]
 }
 
-export { intro, target, coreValues, competences, partners, projects }
+export { headerLinksData, intro, target, coreValues, competences, partners, projects }

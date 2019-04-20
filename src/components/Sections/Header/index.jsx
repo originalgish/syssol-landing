@@ -1,7 +1,9 @@
 import React from 'react'
 
-import logo from '../../../img/logo.png'
+import { headerLinksData } from '../../../data'
+import MenuBurger from '../../MenuBurger'
 
+import logo from '../../../img/logo.png'
 import { HeaderContainer, Logo, LinksContainer, LogoLink, TextLink } from './styles'
 
 const Header = () => (
@@ -14,6 +16,7 @@ const Header = () => (
       <TextLink href="#competences">Компетенции</TextLink>
       <TextLink href="#projects">Проекты</TextLink>
     </LinksContainer>
+    <MenuBurger headerLinksData={headerLinksData} />
   </HeaderContainer>
 )
 
