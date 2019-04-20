@@ -1,4 +1,5 @@
 import React from 'react'
+import ScrollableAnchor from 'react-scrollable-anchor'
 
 import { partners } from '../../../data'
 
@@ -31,18 +32,20 @@ const getLogo = name => {
 }
 
 const Partners = () => (
-  <PartnersContainer>
-    <Title>{partners.title}</Title>
-    <SubTitle>{partners.subtitle}</SubTitle>
-    <CardsContainer>
-      {partners.cardInfo.map(card => (
-        <Card key={card.id} href={card.href} target="_blank" rel="noopener noreferrer">
-          <Logo src={getLogo(card.logo)} alt="logo" />
-          <Name>{card.name}</Name>
-        </Card>
-      ))}
-    </CardsContainer>
-  </PartnersContainer>
+  <ScrollableAnchor id="partners">
+    <PartnersContainer>
+      <Title>{partners.title}</Title>
+      <SubTitle>{partners.subtitle}</SubTitle>
+      <CardsContainer>
+        {partners.cardInfo.map(card => (
+          <Card key={card.id} href={card.href} target="_blank" rel="noopener noreferrer">
+            <Logo src={getLogo(card.logo)} alt="logo" />
+            <Name>{card.name}</Name>
+          </Card>
+        ))}
+      </CardsContainer>
+    </PartnersContainer>
+  </ScrollableAnchor>
 )
 
 export default Partners

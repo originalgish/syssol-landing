@@ -3,7 +3,7 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 
 import { competences } from '../../../data'
 
-import { CompetencesContainer, Title, CardsContainer, ContentWrapper, List, ListItem } from './styles'
+import { CompetencesContainer, Title, CardsContainer, ContentWrapper, List, ListTitle, ListItem } from './styles'
 
 const Competences = () => (
   <ScrollableAnchor id="competences">
@@ -12,8 +12,8 @@ const Competences = () => (
         <Title>{competences.title}</Title>
         <CardsContainer>
           {competences.cardInfo.map(card => (
-            <List key={card.id}>
-              {card.listTitle}
+            <List key={card.id} iconName={card.icon}>
+              <ListTitle> {card.listTitle}</ListTitle>
               {card.listItems.map(item => (
                 <ListItem key={item.id}>{item.text}</ListItem>
               ))}

@@ -12,25 +12,26 @@ export const HeaderContainer = styled.header`
   @media ${device.tablet} {
     padding: 0px 10px;
   }
+  z-index: 10;
 `
 export const Logo = styled.img`
-  width: 160px;
-  height: 115px;
+  width: 128px;
+  height: 92px;
 `
 export const LinksContainer = styled.div`
   display: flex;
   @media ${device.tablet} {
-    flex-direction: column;
+    display: none;
   }
 `
 const Link = styled.a``
 export const LogoLink = styled(Link)``
 export const TextLink = styled(Link)`
-  margin-left: 50px;
+  margin-left: 25px;
   color: ${props => props.theme.text};
   text-decoration: none;
-  @media ${device.tablet} {
-    margin-left: 0;
-    margin-top: 5px;
+  white-space: nowrap;
+  &:hover {
+    color: #0088c6;
   }
 `

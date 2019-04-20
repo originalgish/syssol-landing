@@ -1,3 +1,33 @@
+const headerLinksData = {
+  links: [
+    {
+      id: 0,
+      href: '#about',
+      text: 'О нас'
+    },
+    {
+      id: 1,
+      href: '#corevalues',
+      text: 'Ценности'
+    },
+    {
+      id: 2,
+      href: '#competences',
+      text: 'Компетенции'
+    },
+    {
+      id: 3,
+      href: '#projects',
+      text: 'Проекты'
+    },
+    {
+      id: 4,
+      href: '#partners',
+      text: 'Партнеры'
+    }
+  ]
+}
+
 const intro = {
   title: 'Системные решения',
   subtitle: 'Мы соединяем физический и Онлайн миры',
@@ -41,6 +71,7 @@ const competences = {
     {
       id: 0,
       listTitle: 'Проработка архитектуры IoT-решения:',
+      icon: 'BIAnalytics',
       listItems: [
         {
           id: 0,
@@ -63,6 +94,7 @@ const competences = {
     {
       id: 1,
       listTitle: 'Cистемная интеграция:',
+      icon: 'DataManagement',
       listItems: [
         {
           id: 0,
@@ -85,6 +117,7 @@ const competences = {
     {
       id: 2,
       listTitle: 'Поддержка и обслуживание',
+      icon: 'EnterpriseApplications',
       listItems: [
         {
           id: 0,
@@ -99,6 +132,7 @@ const competences = {
     {
       id: 3,
       listTitle: 'Проработка архитектуры IoT-решения:',
+      icon: 'Infrastructure',
       listItems: [
         {
           id: 0,
@@ -187,4 +221,4 @@ const projects = {
   ]
 }
 
-export { intro, target, coreValues, competences, partners, projects }
+export { headerLinksData, intro, target, coreValues, competences, partners, projects }

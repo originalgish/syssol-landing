@@ -1,7 +1,9 @@
 import React from 'react'
 
-import logo from '../../../img/logo.png'
+import { headerLinksData } from '../../../data'
+import MenuBurger from '../../MenuBurger'
 
+import logo from '../../../img/logo.png'
 import { HeaderContainer, Logo, LinksContainer, LogoLink, TextLink } from './styles'
 
 const Header = () => (
@@ -10,10 +12,13 @@ const Header = () => (
       <Logo src={logo} alt="logo" />
     </LogoLink>
     <LinksContainer>
-      <TextLink href="#about">О нас</TextLink>
-      <TextLink href="#competences">Компетенции</TextLink>
-      <TextLink href="#projects">Проекты</TextLink>
+      {headerLinksData.links.map(link => (
+        <TextLink key={link.id} href={link.href}>
+          {link.text}
+        </TextLink>
+      ))}
     </LinksContainer>
+    <MenuBurger headerLinksData={headerLinksData} />
   </HeaderContainer>
 )
 
