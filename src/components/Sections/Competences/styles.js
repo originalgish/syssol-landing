@@ -30,7 +30,7 @@ const getIcon = iconName => {
 }
 
 export const CompetencesContainer = styled(SectionContainer)`
-  background-color: #aaaaaa25;
+  background-color: rgba(170, 170, 170, 0.25);
 `
 export const ContentWrapper = styled.div`
   max-width: 850px;

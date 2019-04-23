@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { SectionContainer } from '../../../styles/SectionContainer'
 
 export const PartnersContainer = styled(SectionContainer)`
-  background-color: #aaaaaa25;
+  background-color: rgba(170, 170, 170, 0.25);
 `
 export const Title = styled.h2`
   margin: 0;
