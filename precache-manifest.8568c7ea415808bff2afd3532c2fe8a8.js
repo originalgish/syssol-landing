@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "./static/media/address.01e3bbfe.svg"
   },
   {
-    "revision": "915e683fb3e3a167edc0",
+    "revision": "29cbda2e670f1f1373d4",
     "url": "./static/css/main.1c0180e5.chunk.css"
   },
   {
@@ -12,12 +12,16 @@ self.__precacheManifest = [
     "url": "./static/js/runtime~main.d653cc00.js"
   },
   {
-    "revision": "4712f673e8cbbb555a27",
-    "url": "./static/js/2.17d4b591.chunk.js"
+    "revision": "d4a40e2554019fcc5fbb",
+    "url": "./static/js/2.14bf5845.chunk.js"
   },
   {
-    "revision": "218f03d5c07c92cefc34259b461f1011",
-    "url": "./static/media/intro-bg.218f03d5.jpg"
+    "revision": "4877a32c8493beb42bb98b5e3da25a00",
+    "url": "./static/media/intro-bg@1x.4877a32c.jpg"
+  },
+  {
+    "revision": "b8d1e8450fef3bbcb17ecacfccc8fd65",
+    "url": "./static/media/intro-bg@2x.b8d1e845.jpg"
   },
   {
     "revision": "95743b2c049b826e297f2f579274ee19",
@@ -64,8 +68,8 @@ self.__precacheManifest = [
     "url": "./static/media/phone.3af2588b.svg"
   },
   {
-    "revision": "915e683fb3e3a167edc0",
-    "url": "./static/js/main.269e5fcd.chunk.js"
+    "revision": "29cbda2e670f1f1373d4",
+    "url": "./static/js/main.9097c573.chunk.js"
   },
   {
     "revision": "e074bf3a98b6097f1bb72fc7d1493a9c",
@@ -104,12 +108,12 @@ self.__precacheManifest = [
     "url": "./static/media/Helvetica-Bold.d13db1fe.ttf"
   },
   {
-    "revision": "1b580d980532792578c54897ca387e2c",
-    "url": "./static/media/Helvetica-Regular.1b580d98.ttf"
-  },
-  {
     "revision": "e305dd36f46f8493df70fdd4e0e69e3a",
     "url": "./static/media/Helvetica-Regular.e305dd36.eot"
+  },
+  {
+    "revision": "1b580d980532792578c54897ca387e2c",
+    "url": "./static/media/Helvetica-Regular.1b580d98.ttf"
   },
   {
     "revision": "a528844851267c51c614bc3dd7338fc7",
@@ -128,7 +132,7 @@ self.__precacheManifest = [
     "url": "./static/media/Helvetica-Regular.1a5e90d2.svg"
   },
   {
-    "revision": "494102afb130aea279d597af5b011636",
+    "revision": "528418a79249f1323df311a4a5949e6c",
     "url": "./index.html"
   }
 ];
