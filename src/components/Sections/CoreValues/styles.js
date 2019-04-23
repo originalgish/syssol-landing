@@ -12,7 +12,8 @@ export const Title = styled.h2`
 export const Description = styled.h3`
   font-weight: 400;
   max-width: 900px;
-  margin: 20px auto;
+  margin: 20px auto 0 auto;
+  line-height: 1.3;
   text-align: center;
 `
 export const CardsContainer = styled.div`
@@ -57,7 +58,7 @@ export const Card = styled.div`
 `
 export const CardTitle = styled.h4`
   margin: 0;
-  line-height: 1;
+  line-height: 1.3;
 `
 export const CardText = styled.p`
   margin-bottom: 0;
