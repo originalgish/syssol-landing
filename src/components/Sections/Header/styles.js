@@ -10,7 +10,7 @@ export const HeaderContainer = styled.header`
   justify-content: space-between;
   position: relative;
   @media ${device.tablet} {
-    padding: 0px 10px;
+    padding: 0px 50px;
   }
   z-index: 10;
 `

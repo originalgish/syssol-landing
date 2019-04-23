@@ -9,7 +9,7 @@ objectFitImages()
 export const IntroContainer = styled(SectionContainer)`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   height: 736px;
   position: relative;
   @media ${device.mobileL} {
@@ -30,20 +30,24 @@ export const Title = styled.h1`
   margin: 0;
   font-size: 3.5em;
   font-weight: 600;
-  line-height: 1;
-  margin-top: 0em;
-  text-align: center;
-  @media ${device.mobileL} {
+  margin-top: 2em;
+  margin-left: -1px;
+  text-align: left;
+  @media ${device.tablet} {
+    margin-top: 3.5em;
     font-size: 2em;
   }
 `
 export const SubTitle = styled.h2`
   font-weight: 400;
-  line-height: 1;
-  margin-top: 10px;
-  text-align: center;
-  @media ${device.mobileL} {
+  line-height: 1.3;
+  margin-top: 15px;
+  text-align: left;
+  @media ${device.tablet} {
     font-size: 1.5em;
+  }
+  @media ${device.laptop} {
+    max-width: 400px;
   }
 `
 export const HomeLink = styled.a`
@@ -54,7 +58,6 @@ export const HomeLink = styled.a`
   text-decoration: none;
   text-transform: uppercase;
   padding: 15px 20px;
-  margin-top: 15px;
   transition: background-color 0.3s ease;
   &:hover {
     background-color: #1e6687;

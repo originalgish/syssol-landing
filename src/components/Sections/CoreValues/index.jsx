@@ -9,7 +9,6 @@ const CoreValues = () => (
   <ScrollableAnchor id="corevalues">
     <CoreValuesContainer>
       <Title>{coreValues.title}</Title>
-      <Description>{coreValues.description}</Description>
       <CardsContainer>
         {coreValues.cardInfo.map(card => (
           <Card key={card.id}>
@@ -20,6 +19,7 @@ const CoreValues = () => (
           </Card>
         ))}
       </CardsContainer>
+      <Description>{coreValues.description}</Description>
     </CoreValuesContainer>
   </ScrollableAnchor>
 )

@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { SectionContainer } from '../../../styles/SectionContainer'
 
 export const ProjectsContainer = styled(SectionContainer)`
-  background-color: #0088c620;
+  background-color: #ffffff;
 `
 export const ContentWrapper = styled.div`
   max-width: 850px;
@@ -28,7 +28,10 @@ export const Card = styled.div`
   margin: 20px;
   padding: 20px;
   max-width: 300px;
+  text-align: center;
   transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
   &:hover {
     /* box-shadow: -5px 10px 15px 0 rgba(0, 0, 0, 0.1); */
   }
