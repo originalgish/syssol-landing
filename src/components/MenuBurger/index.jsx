@@ -1,18 +1,33 @@
-import React, { useState } from 'react'
-import enhanceWithClickOutside from 'react-click-outside'
+import React, { useState, useEffect, useRef } from 'react'
 
 import { Burger, Bar, LinksWrapper, TextLink } from './styles'
 
 const MenuBurger = ({ headerLinksData }) => {
   const [isOpen, setMenuState] = useState(false)
+  const node = useRef()
 
   const hideMenu = () => setMenuState(false)
 
   const toggleMenu = () => setMenuState(!isOpen)
 
-  const handleClickOutside = () => {
+  const handleClickOutside = e => {
+    if (node.current.contains(e.target)) {
+      return
+    }
     hideMenu()
   }
+
+  useEffect(() => {
+    if (isOpen) {
+      document.addEventListener('mousedown', handleClickOutside)
+    } else {
+      document.removeEventListener('mousedown', handleClickOutside)
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside)
+    }
+  }, [isOpen])
 
   return (
     <Burger onClick={toggleMenu} isOpen={isOpen} aria-label="menu">
@@ -20,7 +35,7 @@ const MenuBurger = ({ headerLinksData }) => {
       <Bar isOpen={isOpen} />
       <Bar isOpen={isOpen} />
       {isOpen && (
-        <LinksWrapper>
+        <LinksWrapper ref={node}>
           {headerLinksData.links.map(link => (
             <TextLink key={link.id} href={link.href}>
               {link.text}
@@ -32,4 +47,4 @@ const MenuBurger = ({ headerLinksData }) => {
   )
 }
 
-export default enhanceWithClickOutside(MenuBurger)
+export default MenuBurger
