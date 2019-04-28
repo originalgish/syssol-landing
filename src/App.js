@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { ThemeProvider } from 'styled-components'
 
 // Components
@@ -14,23 +14,20 @@ import Footer from './components/Sections/Footer'
 // Styles
 import { AppContainer } from './styles'
 import theme from './styles/theme'
-class App extends Component {
-  render() {
-    return (
-      <ThemeProvider theme={theme}>
-        <AppContainer>
-          <Header />
-          <Intro />
-          <Target />
-          <CoreValues />
-          <Competences />
-          <Projects />
-          <Partners />
-          <Footer />
-        </AppContainer>
-      </ThemeProvider>
-    )
-  }
-}
+
+const App = () => (
+  <ThemeProvider theme={theme}>
+    <AppContainer>
+      <Header />
+      <Intro />
+      <Target />
+      <CoreValues />
+      <Competences />
+      <Projects />
+      <Partners />
+      <Footer />
+    </AppContainer>
+  </ThemeProvider>
+)
 
 export default App

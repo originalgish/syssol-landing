@@ -1,4 +1,6 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useRef } from 'react'
+
+import useOnClickOutside from '../../utils/useOnClickOutside'
 
 import { Burger, Bar, LinksWrapper, TextLink } from './styles'
 
@@ -10,32 +12,15 @@ const MenuBurger = ({ headerLinksData }) => {
 
   const toggleMenu = () => setMenuState(!isOpen)
 
-  const handleClickOutside = e => {
-    if (node.current.contains(e.target)) {
-      return
-    }
-    hideMenu()
-  }
-
-  useEffect(() => {
-    if (isOpen) {
-      document.addEventListener('mousedown', handleClickOutside)
-    } else {
-      document.removeEventListener('mousedown', handleClickOutside)
-    }
-
-    return () => {
-      document.removeEventListener('mousedown', handleClickOutside)
-    }
-  }, [isOpen])
+  useOnClickOutside(node, hideMenu)
 
   return (
-    <Burger onClick={toggleMenu} isOpen={isOpen} aria-label="menu">
+    <Burger ref={node} onClick={toggleMenu} isOpen={isOpen} aria-label="menu">
       <Bar isOpen={isOpen} />
       <Bar isOpen={isOpen} />
       <Bar isOpen={isOpen} />
       {isOpen && (
-        <LinksWrapper ref={node}>
+        <LinksWrapper>
           {headerLinksData.links.map(link => (
             <TextLink key={link.id} href={link.href}>
               {link.text}
