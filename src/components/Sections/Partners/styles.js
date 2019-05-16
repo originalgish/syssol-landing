@@ -50,7 +50,7 @@ export const Logo = styled.img`
   border-bottom-left-radius: 4px;
 `
 export const Name = styled.span`
-  margin: 0 10px;
+  margin: 0 8px;
   max-width: 150px;
   color: ${props => props.theme.text};
 `

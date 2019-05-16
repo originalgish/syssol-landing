@@ -5,27 +5,28 @@ import { partners } from '../../../data'
 
 import { PartnersContainer, Title, SubTitle, CardsContainer, Card, Logo, Name } from './styles'
 
-import bmstu from './img/bmstu_logo.png'
-import ideal3 from './img/ideal3_logo.png'
-import mecal from './img/mecal_logo.png'
-import nord from './img/nord_logo.png'
 import rostelecom from './img/rostelecom_logo.png'
-import sit from './img/sit_logo.png'
+import mgts from './img/mgts_logo.png'
+import mts from './img/mts_logo.png'
+import skolkovo from './img/skolkovo_logo.png'
+import saturn from './img/saturn_logo.png'
+import bmstu from './img/bmstu_logo.png'
 
 const getLogo = name => {
   switch (name) {
-    case 'bmstu':
-      return bmstu
-    case 'ideal3':
-      return ideal3
-    case 'mecal':
-      return mecal
-    case 'nord':
-      return nord
     case 'rostelecom':
       return rostelecom
-    case 'sit':
-      return sit
+    case 'mgts':
+      return mgts
+    case 'mts':
+      return mts
+    case 'skolkovo':
+      return skolkovo
+    case 'saturn':
+      return saturn
+    case 'bmstu':
+      return bmstu
+
     default:
       return null
   }

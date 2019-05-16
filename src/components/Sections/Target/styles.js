@@ -22,7 +22,7 @@ export const Text = styled.p`
   font-size: 1.2em;
   line-height: 1.3;
   text-align: center;
-  max-width: 900px;
+  max-width: 990px;
   margin: 0 auto;
   margin-top: 30px;
 `
