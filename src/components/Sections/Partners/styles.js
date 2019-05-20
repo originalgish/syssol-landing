@@ -29,7 +29,8 @@ export const Card = styled.a`
   border-radius: 6px;
   border: solid 1px #979797;
   background-color: #ffffff;
-  width: 350px;
+  width: 340px;
+  min-width: 340px;
   height: 100px;
   display: flex;
   align-items: center;
@@ -51,6 +52,7 @@ export const Logo = styled.img`
 `
 export const Name = styled.span`
   margin: 0 8px;
-  max-width: 150px;
+  width: 100%;
+  text-align: center;
   color: ${props => props.theme.text};
 `

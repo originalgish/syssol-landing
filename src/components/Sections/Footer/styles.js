@@ -94,9 +94,10 @@ export const LinksContainer = styled.div`
 export const LogoLink = styled(Link)``
 export const TextLink = styled(Link)`
   margin-left: 25px;
-  &:first-child: {
+  &:first-child {
     margin-left: 0;
   }
+
   @media ${device.tablet} {
     margin-top: 5px;
   }
